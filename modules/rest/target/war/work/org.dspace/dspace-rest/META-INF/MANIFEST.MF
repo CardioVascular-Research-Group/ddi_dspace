@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: rtaylor3
+Build-Jdk: 1.7.0_21
+Specification-Title: DSpace RESTful web services API
+Specification-Version: 4.2
+Specification-Vendor: DuraSpace
+Implementation-Title: DSpace RESTful web services API
+Implementation-Version: 4.2
+Implementation-Vendor-Id: org.dspace
+Implementation-Vendor: DuraSpace
+

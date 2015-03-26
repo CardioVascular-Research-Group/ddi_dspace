@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Vendor: DuraSpace
+Implementation-Title: Apache Solr Webapp
+Implementation-Version: 4.2
+Implementation-Vendor-Id: org.dspace
+Built-By: rtaylor3
+Build-Jdk: 1.7.0_21
+Specification-Vendor: DuraSpace
+Specification-Title: Apache Solr Webapp
+Created-By: Apache Maven 3.2.2
+Specification-Version: 4.2
+Archiver-Version: Plexus Archiver
+
