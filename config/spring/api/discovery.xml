@@ -109,6 +109,7 @@
                 <ref bean="searchFilterAuthor" />
                 <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterIssued" />
+                <ref bean="searchFilterECGRefdatasets" />
             </list>
         </property>
         <!--The sort filters for the discovery search-->
