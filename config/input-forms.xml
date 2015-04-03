@@ -267,7 +267,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>ecg</dc-element>
          <dc-qualifier>piemail</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>P.I. Email Addresss</label>
+         <label>P.I. Email Address</label>
          <input-type>onebox</input-type>
          <hint>Email Address of Principal Investigator for research</hint>
          <required></required>

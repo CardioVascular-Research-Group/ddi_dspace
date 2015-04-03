@@ -88,8 +88,26 @@ for (int i = supportedLocales.length-1; i >= 0; i--)
 	<%--        <%= topNews %> --%>
 </div>
 
-<div class="container row">
+
+
+
+
+
+
+
+
+<div class="row">
 <%
+if (submissions != null && submissions.count() > 0)
+{
+%>
+        <div class="col-md-12">
+        
+        
+     
+     
+     
+     <%
 if (communities != null && communities.length != 0)
 {
 %>
@@ -134,21 +152,12 @@ if (communities != null && communities.length != 0)
 <%
 }
 %>
-	<%
-    	int discovery_panel_cols = 12;
-    	int discovery_facet_cols = 12;
-    %>
-	<%@ include file="discovery/static-sidebar-facet.jsp" %>
-	
-	
-</div>	
-
-<div class="row">
-<%
-if (submissions != null && submissions.count() > 0)
-{
-%>
-        <div class="col-md-12">
+     
+     
+     
+     
+     
+        
         <div class="panel panel-primary">        
         <div id="recent-submissions-carousel" class="panel-heading carousel slide">
           <h3 style="margin:5px 5px 10px 50px;"><fmt:message key="jsp.collection-home.recentsub"/>
@@ -230,13 +239,34 @@ if (submissions != null && submissions.count() > 0)
 		    <li data-target="#recent-submissions-carousel" data-slide-to="<%= i %>"></li>
 		    <% } %>
 	      </ol>
-     </div></div></div>
+     </div></div>
+     
 <%
 }
 %>
 <%-- <div class="col-md-4">
     <%= sideNews %>
 </div> --%>
+	
+	
+	
+	
+	<div class="container row">
+
+	<%
+    	int discovery_panel_cols = 12;
+    	int discovery_facet_cols = 12;
+    %>
+	<%@ include file="discovery/static-sidebar-facet.jsp" %>
+	
+	
+</div>	
+	
+	
+	
+	
+     </div>
+	
 	
 </div>
 </dspace:layout>
