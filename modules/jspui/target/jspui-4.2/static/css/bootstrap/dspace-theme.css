@@ -86,9 +86,9 @@ ol.breadcrumb.btn-success:active, ol.breadcrumb.btn-success.active {background-c
     margin-left: 0;
     padding-left: 0;
 }
-#tequery .form-control{
-	font-size:16px;
-	padding:4px 12px;
+#tequery.form-control {
+    font-size: 17px;
+    width: 10em;
 }
 .jumbotron {
     background-color: #eceaf2;
