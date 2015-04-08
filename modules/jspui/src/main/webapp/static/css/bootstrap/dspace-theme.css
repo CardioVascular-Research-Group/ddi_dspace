@@ -79,9 +79,12 @@ ol.breadcrumb.btn-success:active, ol.breadcrumb.btn-success.active {background-c
 .ui-widget button {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.homeCom {
-	padding-right:45px;
-}
+/* .homeCom { */
+/* 	padding-right:45px; */
+/* } */
+/* .row .col-md-12 .col-md-12.homeCom { */
+/*     padding-right: 15px; */
+/* } */
 #facet_searchform .navbar-form {
     margin-left: 0;
     padding-left: 0;

@@ -67,7 +67,7 @@
 	<div id="facet_searchform" class="facet col-md-12">
 	<form method="get" action="<%= request.getContextPath() %>/simple-search" class="navbar-form" scope="search">
 	    <div class="form-group">
-          <input type="text" class="form-control" placeholder="<fmt:message key="jsp.layout.navbar-default.search"/>" name="query" id="tequery" size="47"/>
+          <input type="text" class="form-control" placeholder="<fmt:message key="jsp.layout.navbar-default.search"/>" name="query" id="" size="47"/>
         </div>
         <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
 <%--               <br/><a href="<%= request.getContextPath() %>/advanced-search"><fmt:message key="jsp.layout.navbar-default.advanced"/></a>
