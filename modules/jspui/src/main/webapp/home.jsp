@@ -93,13 +93,13 @@ for (int i = supportedLocales.length-1; i >= 0; i--)
     
     <div class="row">
     <div style="" class="col-md-6">
-    <a href="http://www.nhlbi.nih.gov/"><img width="200px" src="/jspui/image/NHLBIlogo200x84.png"></a>
+    <a href="http://www.nhlbi.nih.gov/" target="_blank"><img width="200px" src="/jspui/image/NHLBIlogo200x84.png"></a>
   </div>
   <div style="" class="col-md-6">
-    <a href="https://biocaddie.org/"><img width="200px" src="/jspui/image/biocaddie-logo200x84.png"></a>
+    <a href="https://biocaddie.org/" target="_blank"><img width="200px" src="/jspui/image/biocaddie-logo200x84.png"></a>
   </div>
   <div style="" class="col-md-6">
-    <a href="http://dspace.org/"><img width="200px" src="/jspui/image/dspace-logo-200x84.png"></a>
+    <a href="http://dspace.org/" target="_blank"><img width="200px" src="/jspui/image/dspace-logo-200x84px.png"></a>
   </div>
     </div>
     </div>
