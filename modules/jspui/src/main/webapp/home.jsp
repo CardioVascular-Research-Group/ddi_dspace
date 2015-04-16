@@ -80,12 +80,33 @@ for (int i = supportedLocales.length-1; i >= 0; i--)
 }
 %>
 
+
 <div class="jumbotron">
-	<p>Electrophysiology Data Discovery Index (EDDI)</p>
+  <div style="padding-bottom:25px;" class="row">
+  <div class="col-md-6">
+	<p>Welcome to the Electrophysiology Data Discovery Index (EDDI)</p>
 	<p class="normalPP">EDDI is a web-based platform created to facilitate the annotating, publishing, and discovering  of biomedical time-series data. 
 	Your constructive feedback is appreciated as we continue to expand and maintain this resource.</p>
-	<p>New Users Register <a href="/jspui/register">Here</a></p>
-	<%--        <%= topNews %> --%>
+  </div>
+  <div style="" class="col-md-6">
+    <p>Support for EDDI is provided by:</p>
+    
+    <div class="row">
+    <div style="" class="col-md-6">
+    <a href="http://www.nhlbi.nih.gov/"><img width="200px" src="/jspui/image/NHLBIlogo200x84.png"></a>
+  </div>
+  <div style="" class="col-md-6">
+    <a href="https://biocaddie.org/"><img width="200px" src="/jspui/image/biocaddie-logo200x84.png"></a>
+  </div>
+  <div style="" class="col-md-6">
+    <a href="http://dspace.org/"><img width="200px" src="/jspui/image/dspace-logo-200x84.png"></a>
+  </div>
+    </div>
+    </div>
+  </div>
+	<p><a class="button" href="/jspui/mydspace"><button type="button" class="btn btn-info">Log In</button></a>&nbsp;&nbsp;
+  <a class="button" href="/jspui/register"><button type="button" class="btn btn-success">Sign Up</button></a></p>
+  
 </div>
 
 
