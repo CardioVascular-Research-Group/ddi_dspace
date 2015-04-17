@@ -31,6 +31,7 @@
 <%@ page import="org.dspace.app.webui.util.UIUtil" %>
 <%@ page import="org.dspace.app.webui.components.RecentSubmissions" %>
 <%@ page import="org.dspace.content.Community" %>
+<%@ page import="org.dspace.eperson.EPerson" %>
 <%@ page import="org.dspace.core.ConfigurationManager" %>
 <%@ page import="org.dspace.core.NewsManager" %>
 <%@ page import="org.dspace.browse.ItemCounter" %>
@@ -38,6 +39,8 @@
 <%@ page import="org.dspace.content.Item" %>
 
 <%
+	// Is anyone logged in?
+	EPerson user = (EPerson) request.getAttribute("dspace.current.user");
     Community[] communities = (Community[]) request.getAttribute("communities");
 
     Locale[] supportedLocales = I18nUtil.getSupportedLocales();
@@ -87,13 +90,24 @@ for (int i = supportedLocales.length-1; i >= 0; i--)
 	<p>Welcome to the Electrophysiology Data Discovery Index (EDDI)</p>
 	<p class="normalPP">EDDI is a web-based platform created to facilitate the annotating, publishing, and discovering  of biomedical time-series data. 
 	Your constructive feedback is appreciated as we continue to expand and maintain this resource.</p>
+	<%
+    if (user == null)
+    {
+		%>
+		<p><a class="button" href="/jspui/mydspace"><button type="button" class="btn btn-info">Log In</button></a>&nbsp;&nbsp;
+		<a class="button" href="/jspui/register"><button type="button" class="btn btn-success">Sign Up</button></a></p>
+		<%
+    } else {
+		%>
+	<% } %>  
+	
   </div>
   <div style="" class="col-md-6">
     <p>Support for EDDI is provided by:</p>
     
     <div class="row">
     <div style="" class="col-md-6">
-    <a href="http://www.nhlbi.nih.gov/" target="_blank"><img width="200px" src="/jspui/image/NHLBIlogo200x84.png"></a>
+    <p><a style="font-size:18px;color:#575a5d;text-decoration:none;" href="http://www.nhlbi.nih.gov/" target="_blank">National Heart, Lung, and Blood Institute</a></p>
   </div>
   <div style="" class="col-md-6">
     <a href="https://biocaddie.org/" target="_blank"><img width="200px" src="/jspui/image/biocaddie-logo200x84.png"></a>
@@ -104,9 +118,6 @@ for (int i = supportedLocales.length-1; i >= 0; i--)
     </div>
     </div>
   </div>
-	<p><a class="button" href="/jspui/mydspace"><button type="button" class="btn btn-info">Log In</button></a>&nbsp;&nbsp;
-  <a class="button" href="/jspui/register"><button type="button" class="btn btn-success">Sign Up</button></a></p>
-  
 </div>
 
 
