@@ -63,7 +63,7 @@
 		<property name="phase2TransformationEngine" ref="phase2TransformationEngine" />
 		<!-- Uncomment the following property if you want specific fields to appear in the detail presentation
 			 of a publication. Default values are the ones shown below -->
-		<!-- 
+		 
 		<property name="detailFields">
 	        <list>
 	        	<value>title</value>
@@ -90,7 +90,7 @@
                 <value>translators</value>
 	        </list>
 	    </property>
-	    -->
+	    
 	</bean>
 
 	<!-- **************************************************************************************************** -->
@@ -536,7 +536,10 @@
 			<map key-type="java.lang.String" value-type="java.lang.String">
 				<entry value="jissn" key="dc.identifier.issn" />
 				<entry value="pisbn" key="dc.identifier.isbn" />
+				<entry value="pubmedID" key="dc.identifier.pmid" />
 				<entry value="journal" key="dc.source" />
+				<entry value="volume" key="dc.source.volume" />
+				<entry value="issue" key="dc.source.issue" />
 				<entry value="title" key="dc.title" />
 				<entry value="issued" key="dc.date.issued" />
 				<entry value="language" key="dc.language.iso" />
@@ -548,19 +551,17 @@
 				<entry value="abstract" key="dc.description.abstract" />
 				<entry value="allkeywords" key="dc.subject" />
 				<entry value="arxivCategory" key="dc.subject" />
-				<entry value="doi" key="dc.identifier" />
+				<entry value="doi" key="dc.identifier.doi" />
 				<entry value="publisher" key="dc.publisher" />
 				<!-- Not used - new metadata fields need to be declared for them in DSpace registry -->
-				<!-- 
+				<!-- 				
+				
 				<entry value="url" key="" />
 				<entry value="note" key="" />
 				<entry value="fulltextUrl" key="" />
 				<entry value="authorsWithAffiliation" key="" />
-				<entry value="pubmedID" key="" />
 				<entry value="publicationStatus" key="" />
 				<entry value="jeissn" key="" />
-				<entry value="volume" key="" />
-				<entry value="issue" key="" />
 				<entry value="firstpage" key="" />
 				<entry value="lastpage" key="" />
 				<entry value="eisbn" key="" />

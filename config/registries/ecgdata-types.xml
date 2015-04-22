@@ -116,4 +116,31 @@
     <scope_note>Data Discovery Index URI for any datasets utilized by this publication</scope_note>
   </dc-type>  
 
+  <dc-type>
+	<schema>dc</schema>
+    <element>identifier</element>
+    <qualifier>pmid</qualifier>
+    <scope_note>PubMed reference identifier</scope_note>
+  </dc-type>
+  <dc-type>
+	<schema>dc</schema>
+    <element>identifier</element>
+    <qualifier>doi</qualifier>
+    <scope_note>DOI reference identifier</scope_note>
+  </dc-type>
+
+  <dc-type>
+	<schema>dc</schema>
+    <element>source</element>
+    <qualifier>volume</qualifier>
+    <scope_note>Volume number for journal.</scope_note>
+  </dc-type>
+
+  <dc-type>
+	<schema>dc</schema>
+    <element>source</element>
+    <qualifier>issue</qualifier>
+    <scope_note>Issue number for journal.</scope_note>
+  </dc-type>
+
 </dspace-dc-types>
