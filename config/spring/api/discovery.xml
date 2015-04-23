@@ -109,7 +109,8 @@
                 <ref bean="searchFilterAuthor" />
                 <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterIssued" />
-                <ref bean="searchFilterECGRefdatasets" />
+                <ref bean="searchFilterPubAbstract" />
+                <ref bean="searchFilterPubJournal" />
             </list>
         </property>
         <!--The sort filters for the discovery search-->
@@ -258,13 +259,30 @@
             </list>
         </property>
     </bean>
-    
 
     <bean id="searchFilterECGRefdatasets" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
         <property name="indexFieldName" value="refDatasets"/>
         <property name="metadataFields">
             <list>
                 <value>dc.ecg.datasets</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="searchFilterPubAbstract" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
+        <property name="indexFieldName" value="pubAbstract"/>
+        <property name="metadataFields">
+            <list>
+                <value>dc.description.abstract</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="searchFilterPubJournal" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
+        <property name="indexFieldName" value="pubJournal"/>
+        <property name="metadataFields">
+            <list>
+                <value>dc.source</value>
             </list>
         </property>
     </bean>
