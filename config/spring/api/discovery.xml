@@ -111,6 +111,7 @@
                 <ref bean="searchFilterIssued" />
                 <ref bean="searchFilterPubAbstract" />
                 <ref bean="searchFilterPubJournal" />
+                <ref bean="searchFilterECGRefdatasets" />
             </list>
         </property>
         <!--The sort filters for the discovery search-->
