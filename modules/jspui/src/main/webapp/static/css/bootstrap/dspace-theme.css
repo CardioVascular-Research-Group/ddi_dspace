@@ -67,17 +67,24 @@ input.ds-authority-lock.is-unlocked
 
 /*Data Discovery Index Reconfigurations  panel-heading carousel slide ddi*/
 body.undernavigation {background-color:#f7f6f9;}
-ol.breadcrumb.btn-success {background-image: linear-gradient(to bottom, #452e80 0px, #140d26 100%); border-color:#7C6CA6;}
+ol.breadcrumb.btn-success {
+	background-image: -webkit-linear-gradient(to bottom, #452e80 0px, #140d26 100%); 
+	background-image: -moz-linear-gradient(to bottom, #452e80 0px, #140d26 100%); 
+	background-image: -ms-linear-gradient(to bottom, #452e80 0px, #140d26 100%); 
+	background-image: -o-linear-gradient(to bottom, #452e80 0px, #140d26 100%); 
+	background-image: linear-gradient(to bottom, #452e80 0px, #140d26 100%); 
+	border-color:#7C6CA6;
+	}
 ol.breadcrumb.btn-success:active, ol.breadcrumb.btn-success.active {background-color:#452e80;}
 #recent-submissions-carousel .carousel-control .icon-prev, #recent-submissions-carousel .carousel-control .icon-next, #recent-submissions-carousel .carousel-control .glyphicon-chevron-left, #recent-submissions-carousel .carousel-control .glyphicon-chevron-right {top:75%}
 #ui-accordion-tabs-search-accordion-header-2 {
     display: none;
 }
 .ui-widget {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: Helvetica,Arial,sans-serif;
 }
 .ui-widget button {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: Helvetica,Arial,sans-serif;
 }
 /* .homeCom { */
 /* 	padding-right:45px; */
@@ -108,3 +115,4 @@ ol.breadcrumb.btn-success:active, ol.breadcrumb.btn-success.active {background-c
 .navbar-brand {
 	padding: 8px 8px 8px 30px;
 }
+body {font-family: Helvetica, Arial, sans-serif;}

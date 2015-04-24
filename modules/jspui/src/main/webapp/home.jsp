@@ -88,8 +88,7 @@ for (int i = supportedLocales.length-1; i >= 0; i--)
   <div style="padding-bottom:25px;" class="row">
   <div class="col-md-6">
 	<p>Welcome to the Electrophysiology Data Discovery Index (EDDI)</p>
-	<p class="normalPP">EDDI is a web-based platform created to facilitate the annotating, publishing, and discovering  of biomedical time-series data. 
-	Your constructive feedback is appreciated as we continue to expand and maintain this resource.</p>
+	<p class="normalPP">EDDI’s purpose is to provide cardiac electrophysiologists with a data repository to share their data.  Through the use of DSpace and Globus, EDDI allows for the annotation, publication and discovery of electrophysiology time-series data.  Users annotate and publish the data by describing details about them and associating them with peer-reviewed publications.  Following publication of this information, EDDI then presents users with a case-sensitive interface to search all its fields, returning all items that meet the search criteria.  The search results can then be filtered further, based upon specific values for certain fields.  As always, we appreciate constructive feedback as we continue to expand and maintain EDDI.</p>
 	<%
     if (user == null)
     {
