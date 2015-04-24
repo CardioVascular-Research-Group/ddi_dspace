@@ -72,7 +72,7 @@ ol.breadcrumb.btn-success {
 	background-image: -moz-linear-gradient(to bottom, #452e80 0px, #140d26 100%); 
 	background-image: -ms-linear-gradient(to bottom, #452e80 0px, #140d26 100%); 
 	background-image: -o-linear-gradient(to bottom, #452e80 0px, #140d26 100%); 
-	background-image: linear-gradient(to bottom, #452e80 0px, #140d26 100%); 
+	background-image: linear-gradient(#452e80, #140d26); 
 	border-color:#7C6CA6;
 	}
 ol.breadcrumb.btn-success:active, ol.breadcrumb.btn-success.active {background-color:#452e80;}
