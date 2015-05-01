@@ -383,6 +383,29 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <hint>Hyperlink(s) to original datasets this item references.</hint>
          <required></required>
        </field>
+       
+       <field>
+		    <dc-schema>dc</dc-schema>
+		    <dc-element>ecg</dc-element>
+		    <dc-qualifier>globusendpointname</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Globus Shared Endpoint Name</label>
+         <input-type>onebox</input-type>
+         <hint></hint>
+         <required></required>
+       </field>
+       
+       <field>
+		    <dc-schema>dc</dc-schema>
+		    <dc-element>ecg</dc-element>
+		    <dc-qualifier>globusendpointpath</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Globus Shared Endpoint Path</label>
+         <input-type>onebox</input-type>
+         <hint></hint>
+         <required></required>
+       </field>
+       
 
        <field>
 		    <dc-schema>dc</dc-schema>

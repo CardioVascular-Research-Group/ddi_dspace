@@ -143,4 +143,18 @@
     <scope_note>Issue number for journal.</scope_note>
   </dc-type>
 
+  <dc-type>
+	<schema>dc</schema>
+    <element>ecg</element>
+    <qualifier>globusendpointname</qualifier>
+    <scope_note>Globus Shared Endpoint Name.</scope_note>
+  </dc-type>
+
+  <dc-type>
+	<schema>dc</schema>
+    <element>ecg</element>
+    <qualifier>globusendpointpath</qualifier>
+    <scope_note>Globus Shared Endpoint Path.</scope_note>
+  </dc-type>
+
 </dspace-dc-types>
