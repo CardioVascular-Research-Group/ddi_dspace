@@ -93,8 +93,8 @@ for (int i = supportedLocales.length-1; i >= 0; i--)
     if (user == null)
     {
 		%>
-		<p><a class="button" href="/jspui/mydspace"><button type="button" class="btn btn-info">Log In</button></a>&nbsp;&nbsp;
-		<a class="button" href="/jspui/register"><button type="button" class="btn btn-success">Sign Up</button></a></p>
+		<p><a class="button" href="/mydspace"><button type="button" class="btn btn-info">Log In</button></a>&nbsp;&nbsp;
+		<a class="button" href="/register"><button type="button" class="btn btn-success">Sign Up</button></a></p>
 		<%
     } else {
 		%>
@@ -109,10 +109,10 @@ for (int i = supportedLocales.length-1; i >= 0; i--)
     <p><a style="font-size:18px;color:#575a5d;text-decoration:none;" href="http://www.nhlbi.nih.gov/" target="_blank">National Heart, Lung, and Blood Institute</a></p>
   </div>
   <div style="" class="col-md-6">
-    <a href="https://biocaddie.org/" target="_blank"><img width="200px" src="/jspui/image/biocaddie-logo200x84.png"></a>
+    <a href="https://biocaddie.org/" target="_blank"><img width="200px" src="/image/biocaddie-logo200x84.png"></a>
   </div>
   <div style="" class="col-md-6">
-    <a href="http://dspace.org/" target="_blank"><img width="200px" src="/jspui/image/dspace-logo-200x84px.png"></a>
+    <a href="http://dspace.org/" target="_blank"><img width="200px" src="/image/dspace-logo-200x84px.png"></a>
   </div>
     </div>
     </div>
