@@ -131,9 +131,9 @@
 		
 	<div id="tabs-search-accordion">
 	<h3><a href="#">
-	<% if(communitySet.equals("1"))  {  %><fmt:message key="jsp.submit.start-lookup-submission.dataset-submission"/>
+	<% if(communitySet.equals("1") || communitySet.equals("5"))  {  %><fmt:message key="jsp.submit.start-lookup-submission.dataset-submission"/>
 	<% 
-	}else if(communitySet.equals("2")){
+	}else if(communitySet.equals("2") || communitySet.equals("6")){
 	%><fmt:message key="jsp.submit.start-lookup-submission.publication-submission"/>
 	<% 
 	}else{
@@ -182,7 +182,7 @@
 	</div>
 <% } %>	
 
-	<a href="#" <% if(communitySet.equals("1"))  {  %>	style="display:none;" 
+	<a href="#" <% if(communitySet.equals("1") || communitySet.equals("5"))  {  %>	style="display:none;" 
 	<% 
 	}  
 	%> 
