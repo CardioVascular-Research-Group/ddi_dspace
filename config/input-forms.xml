@@ -15,8 +15,8 @@
 
  <form-map>
    <name-map collection-handle="default" form-name="traditional" />
-   <name-map collection-handle="123456789/2" form-name="ecgdataform" />
-   <name-map collection-handle="123456789/1655" form-name="epdataform" />
+   <name-map collection-handle="11614/2" form-name="ecgdataform" />
+   <name-map collection-handle="11614/1655" form-name="epdataform" />
  </form-map>
 
  <!-- The form-definitions map lays out the detailed definition of all the -->
@@ -316,7 +316,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>P.I. Name</label>
          <input-type>onebox</input-type>
          <hint>Name of Principal Investigator for research and primary contact.</hint>
-         <required></required>
+         <required>Please provide a name for the P.I./Primary contact</required>
        </field>
 
        <field>
@@ -327,7 +327,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>P.I. Email Address</label>
          <input-type>onebox</input-type>
          <hint>Email Address of Principal Investigator for research</hint>
-         <required></required>
+         <required>Please provide an email for the P.I./Primary contact</required>
        </field>
 
        <field>
