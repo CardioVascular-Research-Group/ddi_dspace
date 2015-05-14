@@ -490,7 +490,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>P.I. Name</label>
          <input-type>onebox</input-type>
          <hint>Name of Principal Investigator for research and primary contact.</hint>
-         <required></required>
+         <required>Please provide a name for the P.I./Primary contact</required>
        </field>
 
        <field>
@@ -501,7 +501,7 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <label>P.I. Email Address</label>
          <input-type>onebox</input-type>
          <hint>Email Address of Principal Investigator for research</hint>
-         <required></required>
+         <required>Please provide an email for the P.I./Primary contact</required>
        </field>
 
        <field>
