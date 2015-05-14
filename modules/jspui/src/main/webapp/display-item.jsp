@@ -215,7 +215,7 @@
 %>
     <a class="btn btn-default" href="<%=locationLink %>?mode=simple">
         <fmt:message key="jsp.display-item.text1"/>
-    </a>
+    </a>l
 <%
         }
 %>
@@ -351,11 +351,16 @@
 	var j = jQuery.noConflict();
 	j(document).ready(function(){
 		j("a[href^='http']").attr('target','_blank');
+		j("a[href^='globus']").attr('target','_blank');                
+		
+		j('a:contains("globus")').attr('href', function(index,text){   //
+            return text.replace('#', '%23');
+        });
 
-	    if( j('.metadataFieldValue a:contains(ECG Dataset)').length ){
-	      
-	      j('.ifShow').show();
-	    }
+		if( j('.metadataFieldValue a:contains(ECG Dataset)').length ){
+		      
+		      j('.ifShow').show();
+		    }
 
 });
 
